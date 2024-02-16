@@ -11,6 +11,7 @@ import java.util.Date;
  * @author Mia Symns
  */
 public abstract class Barco {
+  
     private final String nombre;
     private final Date fechaPuestaEnCirculacion;
 
@@ -37,4 +38,5 @@ public abstract class Barco {
     public String toString() {
         return "Nombre del barco: " + nombre;
     }
+  
 }

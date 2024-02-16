@@ -9,5 +9,13 @@ package pruebaprogra2;
  * @author Mia Symns
  */
 public enum TipoPesquero {
-    
+    PEZ(15.0),
+    CAMARON(30.0),
+    LANGOSTA(50.0);
+
+    public final double price;
+
+    TipoPesquero(double price) {
+        this.price = price;
+    }
 }
